@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Bites & Bliss – Search</title>
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="main.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+
+  <!-- NAVBAR from index.html -->
+
+  <header id="home">
+    <nav class="navbar flex between wrapper">
+      <a href="index.html" class="logo">
+        <span><i class="fa-solid fa-pizza-slice pizza"></i></span>
+        Bites & bliss!
+      </a>
+
+      <!-- DESKTOP MENU -->
+      <ul class="navlist flex gap-3">
+        <li><a href="index.html#home">Home</a></li>
+        <li><a href="index.html#menu">Menu</a></li>
+        <li><a href="index.html#services">Services</a></li>
+        <li><a href="index.html#about">About us</a></li>
+        <li><a href="index.html#contacts">Contacts</a></li>
+      </ul>
+
+      <div class="desktop-action flex gap-2">
+        <a href="#" class="cart-icon">
+          <i class="fa-solid fa-cart-shopping"></i>
+          <span class="cart-value">0</span>
+        </a>
+
+        <a href="signin.html" class="btn">
+          Sign in &nbsp;<i class="fa-solid fa-arrow-right-from-bracket"></i>
+        </a>
+      </div>
+    </nav>
+  </header>
+
+
+  <!-- SEARCH BAR (same style as home page) -->
+
+  <div class="search-page-header">
+    <div class="search-container">
+      <input type="text" id="search-input" placeholder=" Search for food......">
+      <button type="button" id="search-button" onclick="startSearch()">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <span>Search</span>
+      </button>
+    </div>
+  </div>
+
+
+  <!-- RECENT SEARCHES -->
+
+  <div class="recent-box">
+    <h3>Your Recent Searches</h3>
+    <div id="recentList"></div>
+  </div>
+
+
+  <h2 class="result-title">Search Results</h2>
+  <div id="results-container"></div>
+
+
+  <!-- QUOTE SECTION -->
+
+  <div class="quote-section mt-4">
+    <img src="/images/woman-pointing.png" alt="woman" class="quote-img">
+    <div class="quote-content">
+      Jab Bhi Bhook Lage, Yaad Aayega Humara Naam <br><br>
+      <span>Order What You Love 🍕🍔</span>
+    </div>
+  </div>
+
+
+  <!-- CART TAB -->
+  <div class="cart-tab">
+    <h4>Your Cart
+      <i class="fa-solid fa-cart-shopping"></i>
+    </h4>
+
+    <div class="cart-list"></div>
+
+    <div class="total-container">
+      <h5>Total: <span class="cart-total">Rs.0</span></h5>
+    </div>
+
+    <div class="btn-container">
+      <button class="checkout-btn" onclick="goToCheckout()">Checkout</button>
+      <button class="close-btn">Close</button>
+    </div>
+  </div>
+  </div>
+  </div>
+</body>
+
+</html>

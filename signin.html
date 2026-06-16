@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sign In • Bites & Bliss!</title>
+
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+</head>
+<body class="signin-page">
+
+<!-- Floating Food Background (Your original design preserved) -->
+<img src="images/burger.png" class="float-item item1">
+<img src="images/pizza.png" class="float-item item2">
+<img src="images/momos.png" class="float-item item3">
+<img src="images/tomato-slice.png" class="float-item item4">
+<img src="images/green-chili-pepper-and-slices.png" class="float-item item5">
+<img src="images/sandwich.png" class="float-item item6">
+<img src="images/cold-coffee.png" class="float-item item7">
+<div class="wave"></div>
+
+
+<div class="signin-wrapper">
+    <div class="login-box">
+
+        <h1 class="logo">Bites & Bliss!</h1>
+        <p class="tagline">Join us & enjoy exclusive flavor deals ♥</p>
+
+        <!-- SIGN-UP FORM -->
+        <form id="signupForm" class="form-box">
+            <h2>Create Account</h2>
+            <input type="text" id="su-email" placeholder="Phone number or Email" required>
+            <input type="password" id="su-password" placeholder="Password" required>
+            <input type="text" id="su-username" placeholder="Username" required>
+
+            <button type="submit" class="btn-primary">Sign up</button>
+
+            <p class="bottom-text">Already have an account? <span id="goLogin" class="switch">Login</span></p>
+        </form>
+
+
+        <!-- LOGIN FORM -->
+        <form id="loginForm" class="form-box hidden">
+            <h2>Welcome Back!</h2>
+            <input type="text" id="li-username" placeholder="Enter Username" required>
+            <input type="password" id="li-password" placeholder="Enter Password" required>
+
+            <button type="submit" class="btn-primary">Login</button>
+
+            <p class="bottom-text">Don't have an account? <span id="goSignup" class="switch">Sign Up</span></p>
+        </form>
+
+    </div>
+</div>
+
+<script src="main.js"></script>
+</body>
+</html>

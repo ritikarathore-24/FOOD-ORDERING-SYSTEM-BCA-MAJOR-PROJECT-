@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Checkout - Bites & Bliss</title>
+<link rel="stylesheet" href="styles.css">
+<script defer src="main.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+
+<!-- NAVBAR SAME AS SEARCH/INDEX -->
+<header id="home">
+  <nav class="navbar flex between wrapper">
+      <a href="index.html" class="logo">
+          <span><i class="fa-solid fa-pizza-slice pizza"></i></span>
+          Bites & bliss!
+      </a>
+
+      <ul class="navlist flex gap-3">
+          <li><a href="index.html#home">Home</a></li>
+          <li><a href="index.html#menu">Menu</a></li>
+          <li><a href="index.html#services">Services</a></li>
+          <li><a href="index.html#about">About us</a></li>
+          <li><a href="index.html#contacts">Contacts</a></li>
+      </ul>
+
+      <div class="desktop-action flex gap-2">
+          <a href="checkout.html" class="btn">Checkout</a>
+      </div>
+  </nav>
+</header>
+
+<!-- Checkout Layout -->
+<div class="checkout-container">
+
+    <h2 class="checkout-title">Order Summary</h2>
+
+    <div class="checkout-content">
+
+        <!-- Left: Items -->
+        <div class="checkout-items" id="checkout-items"></div>
+
+        <!-- Right: Order Details -->
+        <div class="checkout-box">
+            <h3>Payment Details</h3>
+
+            <div class="checkout-line">
+                <span>Subtotal</span>
+                <span id="chk-subtotal">Rs.0</span>
+            </div>
+
+            <div class="checkout-line">
+                <span>Delivery Fee</span>
+                <span id="chk-delivery">Rs.30</span>
+            </div>
+
+            <div class="checkout-line grand">
+                <span>Total</span>
+                <span id="chk-total">Rs.0</span>
+            </div>
+
+            <button class="place-order-btn" onclick="placeOrder()">
+                Place Order
+            </button>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

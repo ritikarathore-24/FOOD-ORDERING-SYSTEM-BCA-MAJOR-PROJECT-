@@ -1,0 +1,99 @@
+[
+    {
+        "id": 1,
+        "name": "Double Beef Burger",
+        "price": "Rs. 85",
+        "image": "images/burger.png"
+    },
+    {
+        "id": 2,
+        "name": "Veggie Pizza",
+        "price": "Rs. 199",
+        "image": "images/pizza.png"
+    },
+    {
+        "id": 3,
+        "name": "Chilli Garlic Fried Rice",
+        "price": "Rs. 130",
+        "image": "images/fried-rice.png"
+    },
+    {
+        "id": 4,
+        "name": "Schezwan Noodles",
+        "price": "Rs. 120",
+        "image": "images/noodles.png"
+    },
+    {
+        "id": 5,
+        "name": "Itallian Spaghetti",
+        "price": "Rs. 200",
+        "image": "images/spaghetti.png"
+    },
+    {
+        "id": 6,
+        "name": "Steamed Veg Momos",
+        "price": "Rs. 80",
+        "image": "images/momos.png"
+    },
+    {
+       "id": 7,
+        "name": "Red Sauce Pasta",
+        "price": "Rs. 130",
+        "image": "images/pasta.png"
+    },
+    {
+        "id": 8,
+        "name": "Veg Grilled Sandwich",
+        "price": "Rs. 90",
+        "image": "images/sandwich.png"
+    },
+    {
+        "id": 9,
+        "name": "Delux Indian Thali",
+        "price": "Rs. 250",
+        "image": "images/indian-thali.png"
+    },
+    {
+        "id": 10,
+        "name": "Gulab Jamun(2 piece)",
+        "price": "Rs. 80",
+        "image": "images/gulab-jamun.png"
+    },
+    {
+        "id": 11,
+        "name": "Jalebi",
+        "price": "Rs. 100",
+        "image": "images/jalebi.png"
+    },
+    {
+        "id": 12,
+        "name": "Indori Poha",
+        "price": "Rs. 70",
+        "image": "images/poha.png"
+    },
+    {
+        "id": 13,
+        "name": "Idli Sambar",
+        "price": "Rs. 60",
+        "image": "images/idli.png"
+    },
+    {
+        "id": 14,
+        "name": "Masala Dosa",
+        "price": "Rs. 150",
+        "image": "images/dosa.png"
+    },
+    {
+        "id": 15,
+        "name": "Cocolate Ice-cream",
+        "price": "Rs. 50",
+        "image": "images/dessert.png"
+    },
+    {
+        "id": 16,
+        "name": "Caramel Cold Coffee",
+        "price": "Rs. 150",
+        "image": "images/cold-coffee.png"
+    }
+]
+
